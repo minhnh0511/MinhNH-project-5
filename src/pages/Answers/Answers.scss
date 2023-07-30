@@ -1,0 +1,21 @@
+table {
+  border-collapse: collapse;
+
+  th, td {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    min-width: 200px;
+  }
+
+  .button__review {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    
+    &:hover {
+      background-color: rgb(109, 43, 209);
+      color: #fff;
+    }
+  }
+}

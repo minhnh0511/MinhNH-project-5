@@ -1,0 +1,14 @@
+.layout {
+  min-height: 100vh;
+
+  .main {
+    flex: 1;
+    min-height: 95vh;
+
+    .container {
+      display: flex;
+      justify-content: center;
+      padding-top: 100px;
+    }
+  }
+}
